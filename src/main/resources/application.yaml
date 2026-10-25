@@ -8,7 +8,7 @@ spring:
             uri: lb://CustomerService
             predicates:
               - Path = /api/v1/auth/**
-
+      enalbal: false
 server:
   port: 8080
 
